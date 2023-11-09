@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+label, input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width: 100%;
+    border-radius: 5px;
+}
+form {
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 30px auto;
+    background-image: url(c:\INFO_02\ALÊ\fts_do_cerri_cete\1527373742975.jpg);
+}
+input[type="submit"]{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+#esquerda {
+    width: 35%;
+    float: left;
+    height: 500px;
+}
+#direita {
+    width: 65%;
+    float: left;
+    height: 500px;
+}
+table{
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 30px auto;
+}
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+tr{
+    line-height: 30px;
+}
+td{
+    padding: 0px 5px;
+}
+a{
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
